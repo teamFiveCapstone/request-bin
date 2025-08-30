@@ -1,4 +1,5 @@
 # RequestBin
+
 Express app that listens for incoming HTTP requests and stores data
 
 PostgreSQL will store method, url, headers, timestamp
@@ -16,6 +17,7 @@ MongoDB will store request body
     ```
 
 1. Install MongoDB if you don't have it already
+
     ```
     brew tap mongodb/brew
     brew install mongodb-community
